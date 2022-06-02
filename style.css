@@ -1,4 +1,14 @@
 * {
     box-sizing: border-box;
   }
+
+  html {
+    font-family: "Poppins", sans-serif;
+  }
   
+  #content {
+   
+        width: 1080px;
+        
+        
+}
