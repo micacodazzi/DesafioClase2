@@ -34,11 +34,11 @@
     <h3>¡Contame un poco sobre vos!</h3>
     <form action="mailto:codazzidesign@gmail.com">
         <label for="nombre">Nombre y Apellido</label><br>
-        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre y apellido"/><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre y apellido" required/><br>
         <label for="edad">Edad</label><br>
-        <input type="number" id="edad" placeholder="Tu Edad"><br>
+        <input type="number" id="edad" placeholder="Tu Edad" required><br>
         <label for="mail">Email</label><br>
-        <input type="email" id="email" name="email" placeholder="Tu email"><br>
+        <input type="email" id="email" name="email" placeholder="Tu email" required><br>
         <label for="sexo">Selecciona tu sexo</label><br>
         <input type="radio" id="mujer" name="sexo" value="Mujer" checked>
         <label for="mujer">Mujer</label><br>
@@ -47,9 +47,9 @@
         <input type="radio" id="ninguno" name="sexo" value="ninguno">
         <label for="ninguno">Prefiero no decirlo</label><br>
         <label for="fecha">Fecha de Nacimiento</label><br>
-        <input type="date" id="date" name="date"><br>
+        <input type="date" id="date" name="date" required><br>
         <label for="mensaje">Sobre mí</label><br>
-        <input type="textarea" id="mensaje" name="mensaje" placeholder="Escribí lo que quieras"/><br>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribí lo que quieras" required></textarea><br>
         <button type="submit">ENVIAR</button>
     </form>
 </div>
